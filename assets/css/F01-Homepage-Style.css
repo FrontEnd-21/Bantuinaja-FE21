@@ -1,0 +1,418 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: auto;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  padding: 0 80px 0 80px;
+  background: #f8f8f8;
+  border: 1px solid #a9a8a8;
+  border-bottom: 2px solid #919090;
+  box-shadow: 0 2px 2px 0 #919090;
+}
+
+.nav-links {
+  position: absolute;
+  width: 100.11px;
+  height: 29.46px;
+  left: 970px;
+  top: 27.7px;
+
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #a9a8a8;
+  padding: 10px;
+}
+
+.nav-links a:hover {
+  color: #003f7e;
+  text-decoration: underline #f27c36;
+}
+
+.section-header {
+  position: relative;
+  height: 380px;
+  background: #a9a8a8;
+}
+
+.information {
+  position: absolute;
+  width: 1185px;
+  height: 280px;
+  top: 40px;
+  left: 90px;
+  background: White;
+  border-radius: 20px;
+}
+
+.information h3 {
+  padding: 30px 0 20px 70px;
+  font-size: 35px;
+}
+
+.information p {
+  position: relative;
+  padding: 3px 150px 0 70px;
+  letter-spacing: 1px;
+  font-size: 22px;
+  line-height: 35px;
+}
+
+.information > i {
+  float: left;
+  display: flex;
+  flex-direction: row;
+  font-size: 40px;
+  margin: 20px 0 0 90px;
+}
+
+.information .txt {
+  float: left;
+  font-size: 20px;
+  padding: 22px 10px 0 10px;
+}
+
+.section-bantuan {
+  margin: 25px;
+}
+
+.section-bantuan > h3 {
+  font-size: 25px;
+  padding: 20px;
+  margin-left: 55px;
+  font-family: Verdana, sans-serif;
+}
+
+.section-bantuan > a {
+  float: right;
+  padding: 20px;
+  margin-right: 70px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #003f7e;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+}
+
+.main {
+  position: relative;
+  margin-top: 70px;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+}
+
+.bantuan::before {
+  content: "";
+  background-image: linear-gradient(
+    to top,
+    rgba(255, 255, 255, 255),
+    rgba(239, 239, 239, 0)
+  );
+  position: absolute;
+  height: 150px;
+  top: 250px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.bantuan img {
+  position: absolute;
+  width: 357px;
+  height: 383px;
+  border-radius: 20px;
+}
+
+.bantuan-info {
+  position: relative;
+  text-align: center;
+  margin-top: 250px;
+  padding: 50px;
+  z-index: 15;
+}
+
+.bantuan-info i {
+  font-size: 18px;
+  word-spacing: 2px;
+}
+
+span {
+  display: flex;
+  position: relative;
+  top: 45px;
+  width: 130px;
+  height: 35px;
+  justify-content: center;
+  padding: 6px;
+  background: rgba(242, 124, 54, 0.75);
+  color: #f8f8f8;
+  transform: matrix(0.64, -0.7, 0.75, 0.65, 0, 0);
+  z-index: 10;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 290px;
+  left: 0px;
+  top: 1097px;
+  background: #003f7e;
+  border-radius: 100px 0px;
+}
+
+.about h1 {
+  position: absolute;
+  top: 35px;
+  font-family: "Verdana";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  display: flex;
+  text-align: center;
+  color: #f27c36;
+}
+
+.about h2 {
+  position: absolute;
+  left: 110px;
+  top: 110px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.about p {
+  position: relative;
+  margin: 150px 70px 0 110px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+
+.step {
+  position: absolute;
+  width: 1056px;
+  height: 345px;
+  left: 195px;
+  top: 1496px;
+  align-items: center;
+  text-align: center;
+}
+
+.step ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+  margin-top: 80px;
+  gap: 90px;
+  line-height: 90px;
+}
+
+.step ul p {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+}
+
+.step ul li i {
+  font-size: 65px;
+  color: #003f7e;
+}
+
+.step ul li .txt {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+
+  line-height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #003f7e;
+}
+
+.mitra {
+  position: absolute;
+  width: 1230px;
+  height: 246px;
+  left: 65px;
+  top: 1996px;
+
+  background: #003f7e;
+  border-radius: 10px;
+}
+
+.mitra h1 {
+  padding: 70px;
+  color: #ffffff;
+}
+
+.mitra button {
+  margin: 0 0 0 70px;
+  position: absolute;
+  width: 200px;
+  height: 59px;
+  border-radius: 17px;
+  bottom: 35px;
+
+  background-color: #f27c36;
+  border-color: aliceblue;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  align-items: center;
+  text-align: center;
+
+  color: #f5f5f5;
+  cursor: pointer;
+}
+
+.mitra button:hover {
+  background-color: #e05d0f;
+}
+
+.mitra .mitraimg {
+  box-sizing: border-box;
+
+  position: absolute;
+  width: 502px;
+  height: 243px;
+  right: 1px;
+  bottom: 1px;
+
+  background: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 50px 10px 10px 50px;
+}
+
+.mitraimg img {
+  position: absolute;
+  width: 243.34px;
+  height: 200px;
+  left: 160px;
+  top: 25px;
+}
+
+footer {
+  position: absolute;
+  width: 1349px;
+
+  height: 380px;
+  top: 2346px;
+  background: #000000;
+}
+
+footer img {
+  position: absolute;
+  width: 177px;
+  height: 152.97px;
+  left: 120px;
+  top: 110px;
+}
+
+footer .address {
+  position: absolute;
+  width: 367.54px;
+  height: 58.94px;
+  left: 370.8px;
+  top: 90px;
+  color: #ffffff;
+  line-height: 30px;
+}
+
+footer .address h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+footer .address p {
+  font-style: normal;
+  /* font-weight: 600; */
+  font-size: 16px;
+  line-height: 35px;
+}
+
+footer .sosmed {
+  display: flex;
+  flex-direction: row;
+}
+
+.sosmed i {
+  position: relative;
+  font-size: 30px;
+  left: 66%;
+  top: 70px;
+  margin: 30px;
+  color: #ffffff;
+}
+
+footer .bahasa {
+  position: absolute;
+  left: 68.61%;
+  right: 29.49%;
+  top: 60%;
+  bottom: 6.17%;
+  font-size: 30px;
+  color: #ffffff;
+}
+
+footer .cp {
+  position: absolute;
+  width: 336.99px;
+  height: 23.19px;
+  left: 600px;
+  top: 320px;
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #f5f5f5;
+}
