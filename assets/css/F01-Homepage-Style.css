@@ -403,6 +403,16 @@ footer .bahasa {
   color: #ffffff;
 }
 
+#g-translate {
+  position: absolute;
+  left: 68.61%;
+  right: 29.49%;
+  top: 100px;
+  bottom: 6.17%;
+  font-size: 30px;
+  color: #ffffff;
+}
+
 footer .cp {
   position: absolute;
   width: 336.99px;
