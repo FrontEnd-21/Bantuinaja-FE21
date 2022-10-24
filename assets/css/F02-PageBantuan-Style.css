@@ -45,6 +45,12 @@ nav {
   padding: 10px;
 }
 
+.nav-links > a.active {
+  color: #003f7e;
+  text-decoration: underline #f27c36;
+  transition: 0.5 ease;
+}
+
 .nav-links a:hover {
   color: #003f7e;
   text-decoration: underline #f27c36;
@@ -172,7 +178,7 @@ form i {
 .bantuan-info {
   position: relative;
   text-align: center;
-  top: 250px;
+  top: 210px;
   padding: 50px;
   z-index: 15;
 }
@@ -184,17 +190,24 @@ form i {
 
 span {
   display: flex;
-  position: absolute;
-  margin-top: 40px;
-  width: 130px;
-  height: 35px;
+  position: relative;
+  top: 12px;
+  right: 38px;
+  height: 0px;
+  width: 135px;
   justify-content: center;
-  padding: 6px;
-  background: rgba(242, 124, 54, 0.75);
-  color: #f8f8f8;
 
-  transform: matrix(0.64, -0.7, 0.75, 0.65, 0, 0);
+  border-bottom: 45px solid rgba(242, 124, 54, 0.75);
+  border-left: 50px solid transparent;
+  border-right: 40px solid transparent;
+  transform: matrix(0.69, -0.7, 0.8, 0.65, 0, 0);
+
   z-index: 10;
+}
+
+span p {
+  position: absolute;
+  top: 15px;
 }
 
 footer {
@@ -258,6 +271,33 @@ footer .bahasa {
   bottom: 6.17%;
   font-size: 30px;
   color: #ffffff;
+}
+
+.lang {
+  position: absolute;
+  display: flex;
+  background-color: #a9a8a8;
+  left: 35px;
+  right: 29.49%;
+  bottom: 74px;
+  margin: 20px;
+  width: 152.47px;
+  height: 39.63px;
+  font-size: 18px;
+  border-radius: 15px;
+  color: #000000;
+}
+
+.lang p {
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.lang i {
+  position: absolute;
+  top: 12px;
+  right: 15px;
 }
 
 footer .cp {
