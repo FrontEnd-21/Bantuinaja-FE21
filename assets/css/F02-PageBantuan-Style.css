@@ -45,12 +45,6 @@ nav {
   padding: 10px;
 }
 
-.nav-links > a.active {
-  color: #003f7e;
-  text-decoration: underline #f27c36;
-  transition: 0.5 ease;
-}
-
 .nav-links a:hover {
   color: #003f7e;
   text-decoration: underline #f27c36;
