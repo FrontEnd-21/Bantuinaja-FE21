@@ -401,6 +401,33 @@ footer .bahasa {
   color: #ffffff;
 }
 
+.lang {
+  position: absolute;
+  display: flex;
+  background-color: #a9a8a8;
+  left: 35px;
+  right: 29.49%;
+  bottom: 74px;
+  margin: 20px;
+  width: 152.47px;
+  height: 39.63px;
+  font-size: 18px;
+  border-radius: 15px;
+  color: #000000;
+}
+
+.lang p {
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.lang i {
+  position: absolute;
+  top: 12px;
+  right: 15px;
+}
+
 footer .cp {
   position: absolute;
   width: 336.99px;
