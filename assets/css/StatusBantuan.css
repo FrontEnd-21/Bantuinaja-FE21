@@ -40,7 +40,64 @@ nav{
     color: #F27C36;
     transition: 0.5s ease-in-out;
 }
-
 .isi {
+    margin-top: 30px;
+}   
+.isi .back {
+    text-decoration: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.back a{
+    margin-left: 20px; 
+    text-decoration: none;
+    color: #a9a8a8;
+}
+.back a:hover{
+    transition: 0.5s ease-in-out;
+    transform: translateX(10px);
+    color: #F27C36;
+}
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tentang-bantuan {
+    background-color: #003F7E;
+    border-radius: 10px;
+    margin-top: 50px;
+    width: 200px;
+    padding: 30px;
+    height: 100px;
+    color: #a9a8a8;
+    text-align: center;
+}
+.tentang-bantuan .img{
+    color: #a9a8a8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+.tentang-bantuan img{
+    width: 30%;
+    border-radius: 20px;
     
+}
+.status-bantuan .heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 400px;
+    text-align: center;
+}
+.status-bantuan .heading h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
 }
