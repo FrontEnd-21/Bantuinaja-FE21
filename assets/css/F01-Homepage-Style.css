@@ -300,29 +300,37 @@ span p {
   color: #ffffff;
 }
 
-.mitra button {
+.mitra .button-mitra {
   margin: 0 0 0 70px;
   position: absolute;
   width: 200px;
   height: 59px;
   border-radius: 17px;
   bottom: 35px;
+}
 
-  background-color: #f27c36;
-  border-color: aliceblue;
-
+.mitra .button-mitra input {
+  width: 200px;
+  height: 59px;
+  border-radius: 17px;
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
-  align-items: center;
-  text-align: center;
+
+  background-color: #f27c36;
+  border-color: aliceblue;
 
   color: #f5f5f5;
   cursor: pointer;
 }
 
-.mitra button:hover {
+.mitra .button-mitra input:hover {
   background-color: #e05d0f;
+}
+
+.mitra .button-mitra input:focus {
+  background-color: #003f7e;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.4);
 }
 
 .mitra .mitraimg {
@@ -450,4 +458,241 @@ footer .cp {
   font-size: 16px;
   line-height: 24px;
   color: #f5f5f5;
+}
+
+@media (max-width: 800px) {
+  .nav-links {
+    left: 450px;
+    font-size: 20px;
+  }
+
+  .section-header {
+    max-height: 270px;
+    background: #919090;
+  }
+
+  .information {
+    position: absolute;
+    max-width: 640px;
+    max-height: 180px;
+  }
+
+  .information h3 {
+    padding: 20px 0 10px 35px;
+    font-size: 20px;
+  }
+
+  .information p {
+    position: static;
+    padding: 3px 0 0 35px;
+    font-size: 16px;
+    line-height: 25px;
+  }
+
+  .information > i {
+    font-size: 22px;
+    margin: 20px 0 0 60px;
+  }
+
+  .information .txt {
+    font-size: 16px;
+    padding: 18px 8px 0 8px;
+  }
+
+  .section-bantuan {
+    margin: 10px;
+  }
+
+  .section-bantuan > h3 {
+    font-size: 18px;
+    padding: 5px;
+  }
+
+  .section-bantuan > a {
+    padding: 5px;
+    font-size: 18px;
+  }
+
+  .main {
+    position: absolute;
+    left: 35px;
+    gap: 10px;
+    margin-top: 45px;
+    display: flex;
+  }
+
+  .bantuan::before {
+    height: 70px;
+    top: 140px;
+  }
+
+  .bantuan img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 10px;
+  }
+
+  .bantuan-info {
+    margin-top: 40px;
+    margin-right: 40px;
+    padding: 45px;
+    font-size: 12px;
+  }
+
+  .bantuan-info i {
+    font-size: 10px;
+    word-spacing: 2px;
+  }
+
+  span {
+    top: 10px;
+  }
+
+  span p {
+    position: absolute;
+    top: 15px;
+  }
+
+  .about {
+    height: 270px;
+    top: 700px;
+  }
+
+  .about h1 {
+    font-size: 20px;
+  }
+
+  .about h2 {
+    top: 100px;
+    font-size: 18px;
+  }
+
+  .about p {
+    margin: 120px 70px 0 110px;
+    font-size: 18px;
+    line-height: 35px;
+  }
+
+  .step {
+    width: auto;
+    left: 70px;
+    top: 1100px;
+  }
+
+  .step ul {
+    left: 30px;
+    gap: 40px;
+    line-height: 50px;
+  }
+
+  .step ul li i {
+    font-size: 30px;
+    color: #003f7e;
+  }
+
+  .step ul li .txt {
+    font-size: 16px;
+  }
+
+  .mitra {
+    position: absolute;
+    max-width: 680px;
+    max-height: 220px;
+    left: 65px;
+    top: 1500px;
+  }
+
+  .mitra h1 {
+    padding: 50px;
+    color: #ffffff;
+    font-size: 18px;
+  }
+
+  .mitra .button-mitra input {
+    width: 130px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 16px;
+  }
+
+  .mitra .mitraimg {
+    max-width: 300px;
+    max-height: 220px;
+    right: 0px;
+  }
+
+  .mitraimg img {
+    position: absolute;
+    width: 200px;
+    height: 150px;
+    left: 60px;
+    top: 35px;
+  }
+
+  footer {
+    position: absolute;
+    width: 800px;
+
+    height: 300px;
+    top: 1900px;
+    background: #000000;
+  }
+
+  footer img {
+    width: 150px;
+    height: 152.97px;
+    left: 50px;
+    top: 80px;
+  }
+
+  footer .address {
+    position: absolute;
+    width: 330px;
+    height: 58.94px;
+    left: 230px;
+    top: 60px;
+    color: #ffffff;
+    line-height: 25px;
+  }
+
+  footer .address h2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+  }
+
+  footer .address p {
+    font-style: normal;
+    /* font-weight: 600; */
+    font-size: 14px;
+    line-height: 30px;
+  }
+
+  footer .sosmed {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .sosmed i {
+    font-size: 20px;
+    left: 70%;
+    top: 50px;
+    margin: 15px;
+  }
+
+  footer #bahasa {
+    left: 75.61%;
+    top: 50%;
+    font-size: 20px;
+  }
+
+  .lang {
+    visibility: hidden;
+  }
+
+  footer .cp {
+    left: 400px;
+    top: 250px;
+    font-size: 14px;
+  }
 }
