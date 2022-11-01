@@ -1,0 +1,56 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  margin-top:  100px;
+  width: 80vw;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.verifikasi{
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  width: 20px;
+}
+
+.verifikasi #verif {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+
+form #Masuk{
+  margin-top: 50px;
+  width: 500%;
+  height: 40px;
+  background-color: #F27C36;
+  border-radius: 20px ;
+  outline: none;
+  border: none;
+  color: #ffff;
+  font-family : Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+  font-size: 17px;
+  font-weight: 500;
+}
+form #Masuk:hover{
+  background-color: #003F7E;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
